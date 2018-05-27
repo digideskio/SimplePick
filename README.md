@@ -4,6 +4,17 @@
 
 A Chrome extension that saves bookmark space...
 
+## Screenshots
+![Screenshot](http://i.cubeupload.com/bULpW9.png "A screenshot of SimplePick")
+Screenshot of SimplePick in French open in the Bookmarks tab.
+
+![Screenshot](http://i.cubeupload.com/KiBz5k.png "SimplePick opened in the Settings tab in French")
+SimplePick opened in the Settings tab in French.
+
+## Supported languages
+For the moment only English and French are supported.
+More languages will be added as soon as we find some voluntary translators.
+Adding new languages is easy thanks to Google i18n's support.
 
 ## Installation
 ### As a normal user
