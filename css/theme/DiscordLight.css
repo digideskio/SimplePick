@@ -79,8 +79,8 @@ section {
 }
 
 select {
-    border-color: #2F3136 !important;
-    color: #202225 !important;
+    border-color: var(--navigation) !important;
+    color: var(--background) !important;
 }
 
 select:hover {

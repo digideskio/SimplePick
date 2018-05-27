@@ -44,42 +44,67 @@ li.selected {
 }
 
 li:hover {
-    background-color: #F38518;
-    color: #FFFFFF;
+    background-color: var(--accentuation);
+    color: var(--textBright);
 }
 
 li::selection {
-	background: #6FC3DF;
+	background: var(--selection);
 }
 
 section {
-    border-color: #F38518;
-    box-shadow: 0px 3px 10px 0px #00000088;
+    border-color: var(--accentuation);
+    box-shadow: 0px 3px 10px 0px var(--shadow)
 }
 
 .top {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: var(--textDark);
+    color: var(--textBright);
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 }
 
 .top::selection {
-	background: #6FC3DF;
+	background: var(--selection);
 }
 
 .main {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: var(--textDark);
+    color: var(--textBright);
 }
 
 .main div::selection {
-	background: #6FC3DF;
+	background: var(--selection);
+}
+
+select {
+    border-color: var(--textBright);
+    color: var(--textBright);
+}
+
+select:hover {
+    background-color: var(--accentuation);
+    color: var(--textDark);
+    border-color: var(--textDark);
 }
 
 a {
-    color: #FFFFFF;
+    color: var(--textBright);
 }
 
 a:visited {
-    color: #FFFFFF;
+    color: var(--textBright);
+}
+
+a:hover {
+    color: var(--accentuation);
+}
+
+button {
+    border-color: var(--textBright);
+    color: var(--textBright);
+}
+
+button:hover {
+    background-color: var(--accentuation);
+    color: var(--textDark);
 }
