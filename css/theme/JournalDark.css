@@ -89,15 +89,15 @@ select:hover {
 }
 
 a {
-    color: var(--accentuation);
+    color: var(--textMoody);
 }
 
 a:visited {
-    color: var(--accentuation);
+    color: var(--textMoody);
 }
 
 a:hover {
-    color: var(--textMoody);
+    color: var(--accentuation);
 }
 
 button {

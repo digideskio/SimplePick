@@ -1,53 +1,70 @@
+:root {
+    --background: #221A0F;
+    --navigation: #221A0F;
+    --textBright: #D3AF86;
+    --textMoody: #9D9992;
+    --textDark: #91887E;
+    --textTop: #DC364C;
+    --accentuation: #65421C;
+    --shadow: #000000;
+    --shadowLight: #00000088;
+    --section: #362712;
+    --top: #221a0f;
+    --main: #484B51;
+    --list: #645342;
+    --button: #BDAF86;
+}
+
 body {
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-	background-color: #221A0F;
+	background-color: var(--background);
 }
 
 nav {
-    color: #D3AF86;
-    background-color: #221A0F;
-    box-shadow: 0px 2px 10px 1px #000000;
+    color: var(--textBright);
+    background-color: var(--navigation);
+    box-shadow: 0px 2px 10px 1px var(--shadow);
 }
 
 nav::selection {
-	background: #65421C;
+	background: var(--accentuation);
 }
 
 aside {
-    color: #9D9992;
+    color: var(--textMoody);
 }
 
 aside::selection {
-	background: #65421C;
+	background: var(--accentuation);
 }
 
 li {
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-    color: #9D9992;
+    color: var(--textMoody);
 }
 
 li.selected {
-    background-color: #645342;
-    color: #91887E;
+    background-color: var(--list);
+    color: var(--textDark);
 }
 
 li:hover {
-    background-color: #645342;
-    color: #91887E;
+    background-color: var(--list);
+    color: var(--textDark);
 }
 
 li::selection {
-	background: #65421C;
+	background: var(--accentuation);
 }
 
 section {
-    border-color: #362712;
-    box-shadow: 0px 3px 10px 0px #00000088;
+    border-color: var(--section);
+    box-shadow: 0px 3px 10px 0px var(--shadowLight);
 }
 
 .top {
-    background-color: #221a0f;;
-    color: #DC364C;
+    background-color: var(--top);
+    color: var(--textTop);
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 }
 
@@ -56,7 +73,7 @@ section {
 }
 
 .main {
-    background-color: #362712;
+    background-color: var(--section);
     color: #BDAF86;
 }
 
@@ -64,10 +81,34 @@ section {
 	background: #5E452B;
 }
 
+select {
+    border-color: var(--button);
+    color: var(--button);
+}
+
+select:hover {
+    background-color: var(--textTop);
+    color: var(--shadow);
+}
+
 a {
-    color: #BDAF86;
+    color: var(--button);
 }
 
 a:visited {
-    color: #BDAF86;
+    color: var(--button);
+}
+
+a:hover {
+    color: var(--textTop);
+}
+
+button {
+    border-color: var(--button);
+    color: var(--button);
+}
+
+button:hover {
+    background-color: var(--textTop);
+    color: var(--shadow);
 }
