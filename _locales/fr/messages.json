@@ -1,0 +1,80 @@
+{
+    "extName": {
+          "message":"SimplePick"
+     },
+     "extDescription": {
+         "message":"Une extension Chrome qui sauve de l'espace pour vos favoris."
+     },
+     "extDefaultTitle": {
+         "message":"SimplePick - Une extension Chrome qui sauve de l'espace pour vos favoris."
+     },
+
+     "tabBookmarks": {
+        "message":"Favoris"
+     },
+     "tabManage": {
+        "message":"Gérer"
+     },
+     "tabSettings": {
+        "message":"Paramètres"
+     },
+     "tabGitHub": {
+        "message":"GitHub"
+     },
+     "tabCredits": {
+        "message":"Crédits"
+     },
+
+     "tabBookmarksTitle": {
+        "message":"SimplePick - Favoris"
+     },
+     "tabBookmarksSectionTitleMyBookmarks": {
+        "message":"Mes Favoris"
+     },
+
+     "tabManageTitle": {
+        "message":"SimplePick - Gérer"
+     },
+     "tabManageSectionTitleLinks": {
+        "message":"Liens"
+     },
+
+     "tabSettingsTitle": {
+        "message":"SimplePick - Paramètres"
+    },
+     "tabSettingsSectionTitleTheme": {
+        "message":"Thème"
+     },
+     "tabSettingsSectionTitleLanguage": {
+        "message":"Langue"
+     },
+     "tabSettingsSectionTitleOpenNewTab": {
+        "message":"Ouvrir dans un nouvel onglet"
+     },
+
+     "tabCreditsTitle": {
+        "message":"SimplePick - Crédits"
+    },
+     "tabCreditsSectionTitleCredits": {
+        "message":"Crédits"
+     },
+     "tabCreditsOriginalIdea": {
+        "message":"Idée Originale"
+     },
+     "tabCreditsDesign": {
+        "message":"Design"
+     },
+     "tabCreditsProgramming": {
+         "message":"Programmation"
+     },
+
+     "errorCustomThemeNotFound": {
+         "message":"Le thème personnalisé n'a pas été trouvé dans la liste des thèmes disponibles.\nLe thème par défaut a été appliqué."
+     },
+     "errorNoLinksDetected": {
+         "message":"Pas de liens détectés.\nUtilisation des liens par défaut."
+     },
+     "errorNoLanguageDetected":{
+        "message":"Pas de langue détectée.\nUtilisation de la langue par défaut."
+     }
+}

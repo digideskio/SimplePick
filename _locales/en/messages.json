@@ -1,0 +1,80 @@
+{
+    "extName": {
+          "message":"SimplePick"
+     },
+     "extDescription": {
+         "message":"A chrome extension that saves bookmark space."
+     },
+     "extDefaultTitle": {
+         "message":"SimplePick - A chrome extension that saves bookmark space."
+     },
+
+     "tabBookmarks": {
+        "message":"BookMarks"
+     },
+     "tabManage": {
+        "message":"Manage"
+     },
+     "tabSettings": {
+        "message":"Settings"
+     },
+     "tabGitHub": {
+        "message":"GitHub"
+     },
+     "tabCredits": {
+        "message":"Credits"
+     },
+
+     "tabBookmarksTitle": {
+        "message":"SimplePick - Bookmarks"
+     },
+     "tabBookmarksSectionTitleMyBookmarks": {
+        "message":"My BookMarks"
+     },
+
+     "tabManageTitle": {
+        "message":"SimplePick - Manage"
+     },
+     "tabManageSectionTitleLinks": {
+        "message":"Links"
+     },
+
+     "tabSettingsTitle": {
+         "message":"SimplePick - Settings"
+     },
+     "tabSettingsSectionTitleTheme": {
+        "message":"Theme"
+     },
+     "tabSettingsSectionTitleLanguage": {
+        "message":"Language"
+     },
+     "tabSettingsSectionTitleOpenNewTab": {
+        "message":"Open in a new tab"
+     },
+
+     "tabCreditsTitle": {
+        "message":"SimplePick - Credits"
+    },
+     "tabCreditsSectionTitleCredits": {
+        "message":"Credits"
+     },
+     "tabCreditsOriginalIdea": {
+        "message":"Original idea"
+     },
+     "tabCreditsDesign": {
+        "message":"Design"
+     },
+     "tabCreditsProgramming": {
+         "message":"Programming"
+     },
+
+     "errorCustomThemeNotFound": {
+         "message":"Custom theme wasn't found in themes list.\nDefault theme applied."
+     },
+     "errorNoLinksDetected": {
+         "message":"No links detected.\nUsing default links."
+     },
+     "errorNoLanguageDetected":{
+        "message":"No language detected.\nusing default langauge."
+     }
+}

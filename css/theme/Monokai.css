@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+	background-color: #272822;
+}
+
+nav {
+    color: #A4A59E;
+    background-color: #272822;
+    box-shadow: 0px 2px 10px 1px #000000;
+}
+
+nav::selection {
+	background: #414339;
+}
+
+aside {
+    color: #000000;
+}
+
+aside::selection {
+	background: #414339;
+}
+
+li {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    color: #FFFFFF;
+}
+
+li.selected {
+    background-color: #414339;
+    color: #FFFFFF;
+}
+
+li:hover {
+    background-color: #414339;
+    color: #FFFFFF;
+}
+
+li::selection {
+	background: #414339;
+}
+
+section {
+    border-color: #1E1F1C;
+    box-shadow: 0px 3px 10px 0px #00000088;
+}
+
+.top {
+    background-color: #1E1F1C;
+    color: #A6E22E;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.top::selection {
+	background: #3E3D32;
+}
+
+.main {
+    background-color: #272822;
+    color: #64D9EF;
+}
+
+.main div::selection {
+	background: #3E3D32;
+}
+
+a {
+    color: #64D9EF;
+}
+
+a:visited {
+    color: #64D9EF;
+}

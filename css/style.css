@@ -1,0 +1,155 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	min-width: 405px;
+	min-height: 500px;
+	overflow: hidden;
+	transition: background-color 0.3s ease-in-out;
+}
+
+nav {
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	width: 100%;
+	padding-left: 30px;
+}
+
+nav img {
+	height: 25px;
+	position: relative;
+	top: 6px;
+	right: 12px;
+	cursor: pointer;
+}
+
+main {
+	display: flex;
+}
+
+aside {
+	width: 0%;
+	right: 200px;
+	position: relative;
+	display: block;
+	transition: all 0.3s ease-in-out;
+	max-width: 300px !important;
+}
+
+aside.open {
+	right: 0px;
+	width: 40%;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+li {
+	font-size: 15px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.center {
+	margin: 10px;
+	width: 100%;
+}
+
+section {
+	border-style: solid;
+	border-width: 1px;
+	width: 95%;
+	margin: 10px;
+	display: inline-table;
+	border-radius: 5px;
+}
+
+.top {
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: 500;
+	padding-left: 20px;
+	border: solid;
+	border-width: 0.4px;
+	border-bottom-width: 1px;
+	border-color: inherit;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.main {
+	border-color: inherit;
+	border-width: inherit;
+	font-size: 15px;
+}
+
+.main div {
+	padding: 20px;
+}
+
+.main.logo {
+	text-align: center;
+}
+
+.main.links {
+	text-align: center;
+}
+
+select {
+	margin: 35px;
+	background-color: inherit;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	border: solid !important;
+	border-width: 1px !important;
+	transition: all 0.3s ease-in-out;
+}
+
+select:focus {
+	outline: none;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+option {
+	height: 15px;
+	font-size: 15px;
+	color: inherit;
+	padding: 5px;
+}
+
+option:hover{
+	color: inherit;
+}
+
+a {
+	cursor: pointer;
+	line-height: 25px;
+	transition: all 0.3s ease-in-out;
+}
+
+button {
+	margin: 35px;
+	background-color: inherit;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	border: solid !important;
+	border-width: 1px !important;
+	transition: all 0.3s ease-in-out;
+}
+
+button:focus {
+	outline: none;
+}

@@ -1,0 +1,111 @@
+:root {
+    --background: #202225;
+    --navigation: #2F3136;
+    --textBright: #FFFFFF;
+    --textMoody: #202225;
+    --textDark: #000000;
+    --accentuation: #7289DA;
+    --shadow: #888888;
+    --shadowLight: #00000088;
+    --selection: #152037;
+    --top: #F3F3F4;
+    --main: #484B51;
+}
+
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+	background-color: var(--textBright);
+}
+
+nav {
+    color: var(--textBright);
+    background-color: var(--navigation);
+    box-shadow: 0px 2px 10px 1px var(--shadow);
+}
+
+nav::selection {
+	background: var(--accentuation);
+}
+
+aside {
+    color: var(--textDark);
+}
+
+aside::selection {
+	background: var(--accentuation);
+}
+
+li {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    color: var(--textDark);
+}
+
+li.selected {
+    background-color: var(--accentuation);
+    color: var(--textDark);
+}
+
+li:hover {
+    background-color: var(--accentuation);
+    color: var(--textDark);
+}
+
+li::selection {
+	background: var(--accentuation);
+}
+
+section {
+    border-color: var(--textMoody);
+    box-shadow: 0px 3px 10px 0px var(--shadow);
+}
+
+.top {
+    background-color: var(--top);
+    color: var(--textMoody);
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.top::selection {
+	background: var(--accentuation);
+}
+
+.main {
+    background-color: var(--textBright);
+    color: var(--textBright);
+}
+
+.main div::selection {
+	background: var(--accentuation);
+}
+
+select {
+    border-color: #2F3136 !important;
+    color: #202225 !important;
+}
+
+select:hover {
+    background-color: var(--accentuation);
+    color: var(--top);
+}
+
+a {
+    color: var(--accentuation);
+}
+
+a:visited {
+    color: var(--accentuation);
+}
+
+a:hover {
+    color: var(--shadow);
+}
+
+button {
+    border-color: var(--textBright);
+    color: var(--textMoody);
+}
+
+button:hover {
+    background-color: var(--accentuation);
+    color: var(--textMoody);
+}
