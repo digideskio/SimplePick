@@ -5,10 +5,10 @@
 A Chrome extension that saves bookmark space...
 
 ## Screenshots
-![alt text](http://i.cubeupload.com/bULpW9.png "A screenshot of SimplePick")
+![Screenshot](http://i.cubeupload.com/bULpW9.png "A screenshot of SimplePick")
 Screenshot of SimplePick in French open in the Bookmarks tab.
 
-![alt text](http://i.cubeupload.com/KiBz5k.png "SimplePick opened in the Settings tab in French")
+![Screenshot](http://i.cubeupload.com/KiBz5k.png "SimplePick opened in the Settings tab in French")
 SimplePick opened in the Settings tab in French.
 
 ## Supported languages
