@@ -17,7 +17,6 @@ More languages will be added as soon as we find some voluntary translators.
 Adding new languages is easy thanks to Google i18n's support.
 
 ## Installation
-### As a normal user
 1. Go to the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) and search for **SimplePick**.
 2. Once you found a matching result, click on it.
 3. Click on the **Add to Chrome** button on top right to add the extension to **Chrome**.
