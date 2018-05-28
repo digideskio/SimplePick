@@ -1,6 +1,6 @@
 # SimplePick
 
-[![GitHub stars](https://img.shields.io/github/stars/SimplePick/SimplePick.svg?style=flat-square)](https://github.com/SimplePick/SimplePick/stargazers) [![GitHub licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/SimplePick/SimplePick/blob/master/LICENSE)
+[![GitHub licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/SimplePick/SimplePick/blob/master/LICENSE)
 
 A Chrome extension that saves bookmark space!
 
@@ -77,7 +77,7 @@ The private key file is not required so if you don't have any you can commit it.
 9. **Check** if the extension is successfully installed by searching for the SimplePick's logo on the top right of the screen where all extensions are shown.
 
 ## Report a bug | Suggest a new feature | Give feedback
-You can create a new issue [ont the issues page of the extension](https://github.com/SimplePick/SimplePick/issues/new).
+You can create a new issue [on the issues page of the extension](https://github.com/SimplePick/SimplePick/issues/new).
 
 ## Credits
 * **Original Idea :** [kerrtrvs](https://github.com/kerrtrvs)
