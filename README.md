@@ -6,7 +6,7 @@ A Chrome extension that saves bookmark space!
 
 ## Screenshots
 ![Screenshot](http://i.cubeupload.com/bULpW9.png "A screenshot of SimplePick")
-Screenshot of SimplePick in French open in the Bookmarks tab.
+SimplePick in French open in the Bookmarks tab.
 
 ![Screenshot](http://i.cubeupload.com/KiBz5k.png "SimplePick opened in the Settings tab in French")
 SimplePick opened in the Settings tab in French.
@@ -28,6 +28,7 @@ If you **encounter any problem** for installing the extension, please  [open a n
 
 ### As a Developer
 There are plenty of ways to add SimplePick to your browser as a developer. Here are the most used ways to do it...
+
 #### Method 1: Get the repo and load the extension unpacked :
 1. Get the code. you can either :
 
