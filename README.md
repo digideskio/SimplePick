@@ -1,6 +1,5 @@
 # SimplePick
 
-[![GitHub issues](https://img.shields.io/github/issues/SimplePick/SimplePick.svg?style=flat-square)](https://github.com/SimplePick/SimplePick/issues)   
 [![GitHub stars](https://img.shields.io/github/stars/SimplePick/SimplePick.svg?style=flat-square)](https://github.com/SimplePick/SimplePick/stargazers) [![GitHub licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/SimplePick/SimplePick/blob/master/LICENSE)
 
 A Chrome extension that saves bookmark space!
